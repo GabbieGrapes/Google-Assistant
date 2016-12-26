@@ -1,0 +1,43 @@
+{
+  "templates": [
+    "Greet my dad"
+  ],
+  "userSays": [
+    {
+      "id": "924d36d0-b4d0-4494-9544-b13d433818ff",
+      "data": [
+        {
+          "text": "Greet my dad"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    }
+  ],
+  "id": "8f940e9e-2c3c-4bb0-800f-f35963d0ea1e",
+  "name": "Hello to my dad",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "speech": "Hello steve how about them cowboys"
+        }
+      ]
+    }
+  ],
+  "priority": 500000,
+  "cortanaCommand": {
+    "navigateOrService": "NAVIGATE",
+    "target": ""
+  },
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": []
+}
